@@ -1,0 +1,27 @@
+.jumbotron {
+border-style: outset;
+text-align: center;
+background-color: #192F6B;
+-webkit-text-stroke: 3px #CA001A;
+color: white;
+margin-left: 250px;
+margin-right: 250px;
+font-size: 50px;
+}
+
+#start-button {
+	font-size: 30px;
+	color: white;
+}
+body {
+	background-image: url("C:/Users/santa/TriviaGame/assets/images/nygwallpaper.jpg");
+
+}
+
+.allQs {
+	display: block;
+	margin: auto;
+	width: 40%;
+	background-color: #A2AAAD;
+	color: white;
+}
