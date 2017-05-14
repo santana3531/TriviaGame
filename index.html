@@ -14,10 +14,20 @@
         <div class="container">
             <h1>New York Giants Trivia</h1>
         </div>
+        <div class="displayTime"></div>
         <div class="start">
-        <button id="start-button">Start</button>
+            <button id="start-button">Start</button>
         </div>
     </div>
+    <style>
+    .wrong + label {
+        color: red;
+    }
+    
+    .correct + label {
+        color: green;
+    }
+    </style>
     <div class="allQs">
         <div>
             <p clas="question1">1. How many Super Bowls have the Giants won?</p>
@@ -104,8 +114,7 @@
                 <br>
             </ul>
         </div>
-    	    <button type="button" class="btn btn-default">Submit</button>
-
+        <button type="button" id="submit" class="btn btn-default">Submit</button>
     </div>
 </body>
 

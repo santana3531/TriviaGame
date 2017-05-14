@@ -13,10 +13,13 @@ font-size: 50px;
 	font-size: 30px;
 	color: white;
 }
-body {
+/*body {
 	background-image: url("C:/Users/santa/TriviaGame/assets/images/nygwallpaper.jpg");
 
 }
+*/
+
+
 
 .allQs {
 	display: block;
@@ -24,4 +27,14 @@ body {
 	width: 40%;
 	background-color: #A2AAAD;
 	color: white;
+}
+
+
+
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
